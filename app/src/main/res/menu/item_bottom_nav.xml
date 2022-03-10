@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24" />
+    <item android:title="@string/promo"
+        android:id="@+id/promo"
+        android:icon="@drawable/ic_baseline_discount_24"/>
+    <item android:title="@string/pesanan"
+        android:id="@+id/pesanan"
+        android:icon="@drawable/ic_baseline_drafts_24"/>
+    <item android:title="@string/chat"
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_baseline_chat_24"/>
+</menu>
