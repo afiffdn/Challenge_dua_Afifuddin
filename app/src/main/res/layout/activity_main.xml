@@ -523,19 +523,22 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
-                app:cardCornerRadius="20dp">
-
-                <FrameLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                app:cardCornerRadius="20dp"
+                android:clickable="true"
+                app:cardElevation="8dp"
+                android:focusable="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:gravity="center_vertical"
                         android:orientation="horizontal">
 
@@ -552,9 +555,7 @@
                             android:textColor="@color/black"
                             android:textSize="15sp" />
 
-                        <RelativeLayout
-                            android:layout_width="120dp"
-                            android:layout_height="wrap_content" />
+
 
                         <ImageButton
                             android:layout_width="wrap_content"
@@ -564,25 +565,17 @@
 
 
                     </LinearLayout>
-                </FrameLayout>
 
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="55dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                app:cardCornerRadius="20dp">
-
-                <FrameLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:alpha="0.25"
+                            android:background="#736E6E"
+                            />
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:gravity="center_vertical"
                         android:orientation="horizontal">
 
@@ -599,9 +592,7 @@
                             android:textColor="@color/black"
                             android:textSize="15sp" />
 
-                        <RelativeLayout
-                            android:layout_width="178dp"
-                            android:layout_height="wrap_content" />
+
 
                         <ImageButton
                             android:layout_width="wrap_content"
@@ -611,9 +602,7 @@
 
 
                     </LinearLayout>
-                </FrameLayout>
-
-
+                    </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <ImageView
