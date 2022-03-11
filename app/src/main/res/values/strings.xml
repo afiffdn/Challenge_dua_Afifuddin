@@ -18,4 +18,7 @@
     <string name="promo">Promo</string>
     <string name="pesanan">Pesanan</string>
     <string name="chat">Chat</string>
+    <string name="total_bonus_rp100rb_menantimu">Total bonus Rp100rb menantimu!</string>
+    <string name="daftar_gopay_jago_dapatkan_cashback_gopay_n_coins_serta_voucher_total_rp00rb"><![CDATA[Daftar Gopay jago & dapatkan cashback, Gopay\n Coins, serta voucher total Rp00rb]]></string>
+    <string name="menabung_di_gopay_jago_sekarang_dapatkan_bunga_tinggi_7"><![CDATA[Menabung di GoPay jago sekarang & dapatkan bunga tinggi 7 %]]></string>
 </resources>
